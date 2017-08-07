@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-gatsby",
+  "version": "0.0.1",
+  "description": "ESLint rules for gatsby starter",
+  "main": "index.js",
+  "scripts": {
+    "find-rules": "eslint-find-rules --unused ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^3.12.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-find-rules": "^3.1.1"
+  }
+}
