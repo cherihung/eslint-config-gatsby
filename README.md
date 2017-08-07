@@ -17,7 +17,7 @@ Install the configs by running:
 npm install --save-dev eslint eslint-config-gatsby
 ```
 
-Note that the plugins and parser used are dependencies of this project and will also be installed to your project, so you don't need to specify them individually.
+The plugins and parser used are dependencies of this project. No need to specify them separately in your project.
 
 Then add the extends to your `.eslintrc.js` to use all the rules:
 
