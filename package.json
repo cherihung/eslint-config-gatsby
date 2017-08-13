@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-gatsby",
+  "name": "@cherihung/eslint-config-gatsby",
   "version": "0.0.1",
   "description": "ESLint rules for gatsby starter",
   "main": "index.js",
