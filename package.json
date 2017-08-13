@@ -1,19 +1,22 @@
 {
   "name": "@cherihung/eslint-config-gatsby",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESLint rules for gatsby starter",
+  "author": "Chienyi Cheri Hung (http://cyh.io)",
   "main": "index.js",
   "scripts": {
-    "find-rules": "eslint-find-rules --unused ./index.js"
+    "find-rules": "eslint-find-rules --unused ./index.js",
+    "projectz": "node ./node_modules/.bin/projectz compile"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/cherihung/eslint-config-gatsby.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
+  "homepage": "https://github.com/cherihung/eslint-config-gatsby",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -27,10 +30,25 @@
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "projectz": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
     "eslint-find-rules": "^3.1.1"
+  },
+  "badges": {
+    "list": [
+      "npmversion",
+      "daviddm",
+      "daviddmdev"
+    ]
+  },
+  "maintainers": [],
+  "contributors": [
+    "Chienyi Cheri Hung (www.cyh.io)"
+  ],
+  "bugs": {
+    "url": "https://github.com/cherihung/eslint-config-gatsby/issues"
   }
 }

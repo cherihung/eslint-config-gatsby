@@ -1,3 +1,12 @@
+<!-- BADGES/ -->
+
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@cherihung/eslint-config-gatsby" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@cherihung/eslint-config-gatsby.svg" alt="NPM version" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/cherihung/eslint-config-gatsby" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/cherihung/eslint-config-gatsby.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/cherihung/eslint-config-gatsby#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/cherihung/eslint-config-gatsby.svg" alt="Dev Dependency Status" /></a></span>
+
+<!-- /BADGES -->
+
+
 # eslint-config-gatsby
 
 ESLint rule configuration for Gatsby starter that I'm working on.
