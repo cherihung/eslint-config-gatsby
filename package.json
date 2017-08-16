@@ -1,6 +1,6 @@
 {
   "name": "@cherihung/eslint-config-gatsby",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint rules for gatsby starter",
   "author": "Chienyi Cheri Hung (http://cyh.io)",
   "main": "index.js",
@@ -21,11 +21,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "index.js"
-  ],
   "peerDependencies": {
-    "eslint": "^3.12.0"
+    "eslint": "^4.2.0"
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
