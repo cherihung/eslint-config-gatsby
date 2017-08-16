@@ -7,8 +7,8 @@ module.exports = {
     './core.js',
     './import.js',
     './babel.js',
-    './jsxa11y',
-    './react',
+    './jsxa11y.js',
+    './react.js',
   ],
   rules: {
   },
