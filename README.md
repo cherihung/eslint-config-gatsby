@@ -23,7 +23,7 @@ Plugins Used:
 Install the configs by running:
 
 ```sh
-npm install --save-dev eslint eslint-config-gatsby
+npm install --save-dev eslint  @cherihung/eslint-config-gatsby
 ```
 
 The plugins and parser used are dependencies of this project. No need to specify them separately in your project.
@@ -32,7 +32,7 @@ Then add the extends to your `.eslintrc.js` to use all the rules:
 
 ```js
 module.exports = {
-  extends: ['gatsby'],
+  extends: ['@cherihung/gatsby'],
   rules: {
       //...
   }
