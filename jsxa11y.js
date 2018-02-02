@@ -30,10 +30,11 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-unsupported-elements.md
     'jsx-a11y/aria-unsupported-elements': 'error',
 
-    // disallow href "#"
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/href-no-hash.md
-    'jsx-a11y/href-no-hash': ['error', { components: ['a'] }],
-
+    // Enforce that anchors have valid targets
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
+    // Note that 'a' tag is checked by default.
+    'anchor-is-valid': ['error', { components: ['Link'] }],
+    
     // Enforce that all elements that require alternative text have meaningful information
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
     'jsx-a11y/alt-text': ['error', {
